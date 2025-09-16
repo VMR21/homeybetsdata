@@ -39,7 +39,7 @@ const [START_TIME, END_TIME] = getCurrentMonthRangeUTC();
 const START_DATE = START_TIME.toISOString().split('T')[0];
 const END_DATE = END_TIME.toISOString().split('T')[0];
 
-const API_URL = `https://services.rainbet.com/v1/external/affiliates?start_at=${START_DATE}&end_at=${END_DATE}&key=FbIc2agHLlrBXGZblcmgdGDv6MX6C1Zi`;
+const API_URL = `https://services.rainbet.com/v1/external/affiliates?start_at=${START_DATE}&end_at=${END_DATE}&key=c2shk7OFsjx0npjgg4uzUteiC37OGbfz`;
 
 // === /api/leaderboard/rainbet ===
 app.get('/api/leaderboard/rainbet', async (req, res) => {
